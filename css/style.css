@@ -53,6 +53,13 @@ body {
 .list .link {
   text-decoration: none;
 }
+.contact .link {
+  color: var(--title-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
 
 /* hero */
 
